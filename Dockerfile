@@ -18,4 +18,4 @@ RUN pip install --no-cache-dir --requirement requirements.txt
 COPY . .
 
 # Default command
-CMD [ "python3", "-m" , "sportyfin", "run", "-f1", "-o", "-v", "/sportyfin/output"]
+CMD [ "python3", "-m" , "sportyfin", "run", "-a", "-o", "-v", "/sportyfin/output"]
